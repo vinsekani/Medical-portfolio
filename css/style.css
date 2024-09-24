@@ -1,0 +1,298 @@
+* {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 0px;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px auto;
+}
+
+.bg-img {
+  background-image: url(../images/hero-section-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  width: 100vw;
+  position: relative;
+  margin-bottom: 3em;
+}
+
+.bg-text {
+  position: absolute;
+  left: 60%;
+  top: 30%;
+}
+
+.bg-info {
+  font-size: 2rem;
+  margin: 1.5em 0;
+}
+
+.btn-info {
+  padding: 2em 5em;
+  background-color: #496bf1;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.btn-success {
+  padding: 2em 6em;
+  background-color: #2dd6c1;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0 auto;
+  margin-left: 40px;
+  font-size: 2em;
+}
+.menu li a {
+  margin: 0px 20px;
+  color: black;
+}
+.menu li a:hover {
+  color: blue;
+}
+.item {
+  width: 50%;
+  height: 200px;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.more {
+  color: #496bf1;
+  margin-bottom: 1em;
+}
+
+.sekani {
+  width: 900px;
+  height: 400px;
+  margin: auto;
+  display: flex;
+}
+.box {
+  margin: 0 15px;
+  width: 400px;
+  height: 300px;
+  box-shadow: -1px 0 10px #000000;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* padding: 2em 4em; */
+}
+.img1 {
+  margin-top: 30px;
+}
+
+#about-us {
+  display: flex;
+  justify-content: center;
+}
+
+.about-us-text {
+  margin-left: 3em;
+  font-size: 1.5rem;
+  width: 40%;
+  line-height: 1.4em;
+}
+
+.about {
+  color: #496bf1;
+}
+.quality {
+  color: #496bf1;
+  padding-bottom: 20px;
+}
+.btn {
+  font-size: 17px;
+  display: inline-block;
+  padding: 14px 16px;
+  background-color: #496bf1;
+  color: white;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+.thousands {
+  /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+  margin: 5em auto;
+  width: 30%;
+}
+
+.hthousand {
+  margin-bottom: 1em;
+  font-size: 2rem;
+}
+
+.info-patient {
+  position: relative;
+}
+
+.quote1 {
+  position: absolute;
+  top: -40%;
+  left: 0%;
+}
+
+.quote2 {
+  position: absolute;
+  left: 60%;
+}
+
+.pquote {
+  margin-top: 3em;
+}
+
+.circle {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: 40px;
+  margin-left: 200px;
+}
+
+.lucy {
+  margin-top: 5em;
+  text-align: center;
+  color: #496bf1;
+  margin-bottom: 2em;
+}
+
+.blue {
+  width: 20px;
+  height: 20px;
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: blue;
+}
+
+.blue1 {
+  width: 20px;
+  height: 20px;
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #2dd6c1;
+}
+
+.b-form {
+  background-image: url(../images/contact-section-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  width: 100vw;
+  position: relative;
+}
+
+.we {
+  margin-bottom: 1em;
+  font-size: 2rem;
+  margin-left: 40%;
+}
+
+.input1 {
+  padding: 2em 8em;
+}
+
+.input2 {
+  padding: 2em 8em;
+  margin: 2em 0;
+}
+
+.input3 {
+  padding: 2em 8em;
+  margin: 2em 0;
+}
+
+.sub {
+  padding: 2em 4em;
+  color: white;
+  background-color: #496bf1;
+  border: none;
+}
+
+.text-area {
+  margin-bottom: 4em 0;
+}
+
+.form-section {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+
+ .main-footer {
+  display: flex;
+  justify-content: space-between;
+  /* flex-direction:column; */
+  max-height: 20em;
+  margin-top: 3em;
+
+}
+.footer-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 5em;
+}
+
+.footer-section-1{
+  /* display: flex; */
+    width:30%;
+    margin: 0 auto;
+    margin-left: 5em !important;
+}
+
+.location-icon {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin-top:2em;
+    font-size: 1.3rem;
+}
+
+.footer-links{
+    font-size: 1.3rem;
+    line-height: 2em;
+    margin-top: 1em;
+}
+
+.s-icons{
+  height: 5vh;
+  width: 5vh;
+} 
+
+
+/* #logo-footer{
+  margin-top: 2em;
+} */
+
+
+
